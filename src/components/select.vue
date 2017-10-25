@@ -26,7 +26,7 @@ import axios from 'axios'
 export default {
   data () {
     return {
-      title:'',
+      title: '',
       listShow: false
       // listData: listData
     }

@@ -17,7 +17,7 @@ export default {
   },
   methods: {
     showInput () {
-      this.$emit('update:isShow', !this.initShow) //update是vue中自定义的 只需传入需要改变的key 和改变后的值
+      this.$emit('update:isShow', !this.initShow) // update是vue中自定义的 只需传入需要改变的key 和改变后的值
     }
   }
 }

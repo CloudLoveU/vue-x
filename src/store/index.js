@@ -21,7 +21,7 @@ let store = new Vuex.Store({
       // if (state.count >= 120) {
       //   return
       // }
-      state.count += payload.n 
+      state.count += payload.n
     },
     minus (state, payload) {
       state.count -= payload.n
